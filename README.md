@@ -30,7 +30,7 @@ specific version or read the notes.
 > specific, unambiguously-versioned file for the record.
 
 > **macOS:** coming later. This first beta is Windows-only.
-
+> **AI Support:** Claude Code, Claude Desktop & Manual MCP Hosting
 ---
 
 ## System requirements
