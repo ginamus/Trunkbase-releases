@@ -26,10 +26,10 @@ asset on the release page — see below). You can also browse
 specific version or read the notes.
 
 > Each release page also carries a version-stamped copy of the same installer
-> (e.g. `Trunkbase_0.1.0-beta.1_x64-setup.exe`), if you'd rather download a
+> (e.g. `Trunkbase_0.3.1_x64-setup.exe`), if you'd rather download a
 > specific, unambiguously-versioned file for the record.
 
-> **macOS:** coming later. This first beta is Windows-only.
+> **macOS:** coming later. This release is Windows-only.
 
 > **AI Support:** Claude Code, Claude Desktop & Manual MCP Hosting
 ---
@@ -49,7 +49,7 @@ specific version or read the notes.
 
 1. Download the installer using the button above.
 2. Double-click the downloaded **`Trunkbase-Setup-x64.exe`** (or the
-   version-stamped `Trunkbase_0.1.0-beta.1_x64-setup.exe`, if that's the one you
+   version-stamped `Trunkbase_0.3.1_x64-setup.exe`, if that's the one you
    grabbed — they're the same file).
 3. **You will see a blue "Windows protected your PC" screen.** This is expected —
    see the note just below on why. Click **More info**, then **Run anyway**.
@@ -61,23 +61,25 @@ A fuller walkthrough (with uninstall steps) is in **[INSTALL.md](INSTALL.md)**.
 
 ### Why does Windows warn me?
 
-This beta is **not code-signed yet**. Code signing is a paid certificate that
-tells Windows who published an app; without it, Windows SmartScreen shows the
-"unknown publisher" warning for *any* new app, safe or not. Signing is planned
-for a future release. Until then, the **More info → Run anyway** step is how you
-tell Windows you trust this download. If that trade-off isn't comfortable for
-you, we'd suggest waiting for a signed build.
+This public installer is **not code-signed yet**. Code signing is a paid
+certificate that tells Windows who published an app; without it, Windows
+SmartScreen shows the "unknown publisher" warning for *any* new app, safe or not.
+A **code-signed Microsoft Store build is coming** and won't show this warning.
+Until then, the **More info → Run anyway** step is how you tell Windows you trust
+this download. If that trade-off isn't comfortable for you, we'd suggest waiting
+for the signed build.
 
 ---
 
-## What to expect from the beta
+## What to expect
 
-This is an early beta shared with a small group of trusted testers. It's
-genuinely useful today, but expect rough edges, and please keep a copy of
-anything important elsewhere while you kick the tires.
+Trunkbase is an early product under active development. It's genuinely useful
+today, but expect the occasional rough edge, and please keep a copy of anything
+important elsewhere while you get comfortable with it.
 
 - **Windows-only** for this release; **macOS** comes later.
-- **Unsigned**, so you'll see the SmartScreen prompt above.
+- **The public installer is unsigned**, so you'll see the SmartScreen prompt
+  above (a signed Microsoft Store build is coming).
 - **Found a bug or have an idea?** Please open an
   [issue](https://github.com/Ginamus/Trunkbase-releases/issues) — a short
   description of what you did and what happened is a huge help.
