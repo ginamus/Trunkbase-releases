@@ -23,7 +23,7 @@ Open the download page and get the latest installer:
 
 The file is around 370 MB — it bundles the whole document engine, so there's
 nothing else to install. Each release page also carries the exact same bytes
-under a version-stamped filename (e.g. `Trunkbase_0.1.0-beta.1_x64-setup.exe`),
+under a version-stamped filename (e.g. `Trunkbase_0.3.1_x64-setup.exe`),
 if you'd rather download that one for the record — either file installs the
 same app.
 
@@ -35,9 +35,9 @@ same app.
 
 ## Step 2 — Run the installer past the SmartScreen prompt
 
-Double-click the downloaded `.exe`. Because this beta is **not yet code-signed**
-(see [Why the warning?](#why-the-warning) below), Windows will show a blue
-**"Windows protected your PC"** screen.
+Double-click the downloaded `.exe`. Because the public installer is **not yet
+code-signed** (see [Why the warning?](#why-the-warning) below), Windows will show
+a blue **"Windows protected your PC"** screen.
 
 1. Click the small **More info** link.
 2. A **Run anyway** button appears at the bottom — click it.
@@ -50,8 +50,8 @@ Double-click the downloaded `.exe`. Because this beta is **not yet code-signed**
 > highlighted.]_
 
 If you don't see a **More info** link, your organization may block unsigned apps
-by policy — in that case this beta isn't installable on that machine, and you'll
-want to wait for a signed release.
+by policy — in that case this build isn't installable on that machine, and you'll
+want to wait for the signed Microsoft Store release.
 
 ---
 
@@ -84,9 +84,10 @@ Markdown note. That's it — you're up and running.
 
 Windows SmartScreen shows "unknown publisher" for any application that isn't
 **code-signed** — a paid certificate that vouches for the publisher's identity.
-This beta ships unsigned, so the warning appears even though the download is the
-same file published on this repo's Releases page. Code signing is planned for a
-later release; until then, **More info → Run anyway** is how you approve the app.
+The public installer ships unsigned, so the warning appears even though the
+download is the same file published on this repo's Releases page. A signed
+Microsoft Store build is coming; until then, **More info → Run anyway** is how you
+approve the app.
 You can verify you downloaded the genuine file by checking its SHA-256 checksum,
 which is published in each release's notes.
 
