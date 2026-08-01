@@ -26,7 +26,7 @@ asset on the release page — see below). You can also browse
 specific version or read the notes.
 
 > Each release page also carries a version-stamped copy of the same installer
-> (e.g. `Trunkbase_0.3.1_x64-setup.exe`), if you'd rather download a
+> (e.g. `Trunkbase_0.3.3_x64-setup.exe`), if you'd rather download a
 > specific, unambiguously-versioned file for the record.
 
 > **macOS:** coming later. This release is Windows-only.
@@ -39,8 +39,8 @@ specific version or read the notes.
 | | |
 |---|---|
 | **Operating system** | Windows 10 or Windows 11, 64-bit (x64) |
-| **Disk space** | ~1.5 GB (the app bundles its own document engine and search models) |
-| **Internet** | Not required to use the app. A one-time download of the search model happens on first search; after that everything works fully offline. |
+| **Disk space** | ~2 GB (the app bundles its own document engine and document-analysis models) |
+| **Internet** | Not required to decompose documents — as of 0.3.3 the document models ship inside the installer, so PDFs work offline from the first file. One optional download remains: the search-by-meaning model, fetched once the first time you search. |
 | **macOS / Linux** | Not yet — macOS is planned for a later release. |
 
 ---
@@ -49,7 +49,7 @@ specific version or read the notes.
 
 1. Download the installer using the button above.
 2. Double-click the downloaded **`Trunkbase-Setup-x64.exe`** (or the
-   version-stamped `Trunkbase_0.3.1_x64-setup.exe`, if that's the one you
+   version-stamped `Trunkbase_0.3.3_x64-setup.exe`, if that's the one you
    grabbed — they're the same file).
 3. **You will see a blue "Windows protected your PC" screen.** This is expected —
    see the note just below on why. Click **More info**, then **Run anyway**.
