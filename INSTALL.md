@@ -8,10 +8,11 @@ on Windows 10 and 11. If you just want the short version, the
 
 ## Before you start
 
-- **You need:** Windows 10 or 11, 64-bit. About 1.5 GB of free disk space.
+- **You need:** Windows 10 or 11, 64-bit. About 2 GB of free disk space.
 - **You don't need:** an account, a license key, or an internet connection to
   use the app. (A single search model downloads automatically the first time you
-  search; after that Trunkbase runs fully offline.)
+  search; after that Trunkbase runs fully offline. Decomposing documents needs no
+  download at all — the document models ship inside the installer.)
 
 ---
 
@@ -21,9 +22,10 @@ Open the download page and get the latest installer:
 
 ➡️ **[Trunkbase-Setup-x64.exe](https://github.com/Ginamus/Trunkbase-releases/releases/latest/download/Trunkbase-Setup-x64.exe)**
 
-The file is around 370 MB — it bundles the whole document engine, so there's
-nothing else to install. Each release page also carries the exact same bytes
-under a version-stamped filename (e.g. `Trunkbase_0.3.1_x64-setup.exe`),
+The file is around 718 MB — it bundles the whole document engine *and* the
+document-analysis models, so there's nothing else to install and nothing to
+download when you open your first PDF. Each release page also carries the exact
+same bytes under a version-stamped filename (e.g. `Trunkbase_0.3.3_x64-setup.exe`),
 if you'd rather download that one for the record — either file installs the
 same app.
 
